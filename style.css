@@ -20,9 +20,6 @@ h2{
     border-radius: 10px;
     padding-top: 15px;
     
-    
-
-    
 }
 b{
     margin-right: 50%;
@@ -48,5 +45,27 @@ a:hover{
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     line-height: 50px;
+}
+#hotel-management{
+    width:300px;
+    height:300px;
+    display:inline-block;
+    margin-left: 10px;
+}
+#my-portfolio{
+    width:300px;
+    height:300px;
+    display:inline-block;
+     margin-left: 20px;
+}
+#submit{
+    background-color: black;
+    color:white;
+    border-radius:10px;
+}
+#submit:hover{
+    font-size: 24px;
+    color:yellowgreen;
+    box-shadow: 1px -8px 16px rgba(91, 163, 13, 0.5);
 }
 
