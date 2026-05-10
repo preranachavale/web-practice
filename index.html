@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
+
+        <div id="navbar">
+                <b style="font-size: 900;">My Portfolio</b>
+                <a href="#">Home</a>
+                <a href="#about ">About  </a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact Me</a>
+            
+        </div><br><br><br><br><br><br>
+        <div id="name">
         <h1>Prerana Balbhim Chavale </h1>
-         Aspiring Web Developer<br>
+         Aspiring Web Developer<br><br>
          <img src="photo.jpg" alt="image" width="200">
-         <nav>
-            <ul>
-                <li>Home</li>
-                <li>About  </li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contacts</li>
-            </ul>
-        </nav>
-    </header>
-    <section>
+         </div><br><br><br>
+
+    <section id="about">
         <h2> About Me</h2>
-        <article> Hello, My name is Prerana Balbhim Chavale.I am a passionate and curious student who is learning web development. I enjoy exploring new technologies and creating creative websites. Currently, I am focused on improving my coding skills and learning something new every day.</article>
+        <article> Hello, My name is <u> Prerana Balbhim Chavale.</u>I am a passionate and curious student who is learning web development. I enjoy exploring new technologies and creating creative websites. Currently, I am focused on improving my coding skills and learning something new every day.</article>
         <h3>My Future Goal</h3>
-        <p> My future goal is to become a skilled Full Stack Web Developer. I want to build websites and applications that are useful, user-friendly, and creative. I also want to grow continuously and create a strong identity in the tech industry.</p>
+        <p> My future goal is to become a skilled <i>Full Stack Web Developer.</i> I want to build websites and applications that are useful, user-friendly, and creative. I also want to grow continuously and create a strong identity in the tech industry.</p>
         <h3>Why I Chose to Become a Developer</h3>
         <pre>
             I have always been interested in technology and creativity. 
             I found it inspiring that coding allows us to turn ideas into real projects and websites. That is why I decided to become a developer. 
             I enjoy solving problems, building new things, and continuously learning new skills.
         </pre>
-    </section>
+    </section><br><br><hr><br><br>
     <section>
-        <h2> My Education</h2>
+        <h2> My Education</h2><br>
 
     <table border="1" cellpadding="10">
 
@@ -146,6 +149,45 @@
 
     </table>
 
+    </section>
+    <br><br>
+    <hr>
+    <br><br>
+    <section id="skills"><br>
+        <h2>My Skills</h2>
+        <br>
+        <pre><b>here is my skills listed below.</b>
+            <ul>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>HTML</li>
+                <li>JS</li>
+            </ul>
+        </pre>
+            
+     </section><hr><br><br>
+     <section id="projects">
+        <h2>Projects Created by Me</h2><br>
+        <div id="hotel-management">
+        <b>Hotel Management</b><br><br>
+        <a href="https://github.com/preranachavale/hotel-management.git" target="_main"><img src="hotel-project.jpg" alt="hotel project" width="200"></a><br></div><br>
+        <div id="my-portfolio">
+        <b>My Portfolio</b><br>
+        <a href="https://github.com/preranachavale/web-practice.git" target="_main"><img src="photo.jpg" alt="My Portfolio" width="200"></a></div>
+    </section><br><br><hr><br><br>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+           Enter your Name: <input type="text" id="username" ><br><br>
+           Enter email: <input type="email" id="useremail" ><br><br>
+           Select gender:<br><input type="radio" name="gender" id="gender value="male"> male<br>
+           <input type="radio" name="gender" id="gender" value="female"> female<br>
+           <input type="radio" name="gender" id="gender" value="other"> other<br>
+
+            <input type="text" id="message" placeholder="Enter Message"><br><br>
+             <input type="submit" id="submit" ><br><br>
+
+        </form>
     </section>
     
 </body>
